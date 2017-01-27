@@ -1,3 +1,16 @@
+# A bot for crawl 0.20, which is currently DCSS's development "trunk".
+
+# INSTRUCTIONS: Put your usual .rc file ABOVE this line, so that where
+#    necessary, QW-pal can overrule a couple of your usual preferences.
+
+# I'm calling this bot "QW-pal". It's pretty much just qw, but with tweaks.
+# Goal/scope 1: This is optimized for online, WebTiles usage.
+# Goal/scope 2: QW-pal plays alongsied the player, not by itself. This is the
+#    biggest change. No more dumping good potions and rings on the floor,
+#    because the player may want to use those. QW-pal is only here to speed
+#    up boring stuff, not to make unilateral decisions. Parts of qw that may
+#    cause frustration for human operators are being commented out. 
+
 # This rcfile is elliptic's DCSS bot "qw", the first (and thus far only) bot
 # to win DCSS with no human assistance. A substantial amount of code here was
 # contributed by elliott or borrowed from N78291's bot "xw", and many others
